@@ -1,0 +1,25 @@
+@@font-face {
+  font-family: "Brizeux";
+  src: url("brizeux_gras.otf") format("otf");
+}
+html{
+  align-items: center;
+  background-color: black;
+}
+canvas {
+  position: absolute;
+  top:0%;
+  left:15%;
+  display: block;
+  outline: none;
+}
+#texte{
+  position: absolute;
+  top:20px;
+  left:20px;
+  color:white;
+  font-size: 2vw;
+  width:33%;
+  font-family: "Brizeux";
+  word-wrap: break-word;
+}
